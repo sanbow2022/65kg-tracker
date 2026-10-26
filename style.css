@@ -2,3 +2,10 @@
 
 /* Workout guide v2 */
 .workout-list{display:grid;gap:12px;margin-bottom:16px}.exercise-card{background:#fff;border:1px solid #e2eae2;border-radius:17px;padding:16px}.exercise-top{display:flex;align-items:center;gap:12px}.exercise-icon{font-size:26px;background:#eaf3e9;border-radius:12px;padding:8px}.exercise-title{display:grid;gap:3px}.exercise-title strong{font-size:15px}.exercise-title small{color:#71877a;font-size:11px}.exercise-dose{font-size:15px;font-weight:800;color:#216447;margin:12px 0}.exercise-card p{font-size:13px;line-height:1.7;margin:8px 0}.exercise-tip{color:#637e6d}.exercise-check{display:flex;align-items:center;gap:10px;background:#eef6ed;padding:12px;border-radius:11px;margin-top:12px;font-size:14px}.exercise-check input{width:19px;height:19px;accent-color:#1d6148}.workout-progress .track{height:8px;background:#e3eee4;margin-bottom:5px}.workout-progress .track div{height:100%;background:#3c9564;border-radius:20px}.workout-progress{margin-top:12px}nav button{font-size:20px}nav button span{font-size:10px}
+
+.day-select{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0 16px}.day-select label{padding:9px 10px;background:#e8f1e9;border-radius:10px;font-size:13px}.day-select input{accent-color:#237650;margin-right:4px}.welcome{padding-top:30px}.welcome[hidden]{display:none}#welcomeForm{display:grid;gap:14px}.panel h3{margin-top:0}
+
+/* Keep onboarding-only controls out of the main navigation. */
+[hidden]{display:none!important}
+.two>*{min-width:0}
+.plan-card>div{min-width:0;overflow-wrap:anywhere}
